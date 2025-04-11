@@ -5,15 +5,45 @@
 | Group \#:       |   |
 |-----------------|---|
 | Student Names:  |Rakshita Suri   |
-|                 |   |
+|                 |Mohit Kaila   |
 |                 |   |
 |                 |   |
 
 # Introduction
 
-# 
+# In this assignment, we had to check how reliable a software system is by looking at when and how often it fails. Our group split the work, and we worked on the first part using a tool called C-SFRAT. This tool helps us see if the system is improving over time as more testing is done. The goal was to find out if the system becomes more reliable and which model best explains the failure data.
 
 # Assessment Using Reliability Growth Testing 
+
+We started by converting the given dataset (DATASET1.DAT) into the format that C-SFRAT needs. We used only the useful parts of the data and made a CSV file with three columns: T (time), FC (failure count), and E (execution time). Then we loaded the file into C-SFRAT and ran several reliability models.
+
+We tested the following models:
+
+Discrete Weibull (Order 2)
+
+Salvia & Bollinger
+
+Generalized Salvia & Bollinger
+
+Geometric
+
+Negative Binomial (Order 2)
+
+After running the tool and comparing results, we found that the two best models were:
+
+Discrete Weibull (Order 2): It had the lowest AIC (251.42) and a perfect match score of 1.0.
+
+Salvia & Bollinger: This model also had strong results with a match score of 0.97.
+
+We took screenshots of the model comparison table and the plots for both models. The plots show how well each model predicted the actual failures. The black lines show real failure data and the colored lines show the model's prediction. Both models followed the real data closely.
+
+Screenshots:
+
+Model Comparison Table
+
+Discrete Weibull (Order 2) – Cumulative Failure Plot
+
+Salvia & Bollinger – Cumulative Failure Plot
 
 # Assessment Using Reliability Demonstration Chart 
 
