@@ -43,15 +43,15 @@ Screenshots:
 
 Model Comparison Table
 
-images/comparison.png
+![Comparison](images/comparison.png)
 
 DW2 – Discrete Weibull (Order 2) – Prediction Plot
 
-images/DW2.png
+![DW2](images/DW2.png)
 
 S – Salvia & Bollinger – Prediction Plot
 
-images/S.png
+![S](images/S.png)
 
 # Assessment Using Reliability Demonstration Chart 
 
