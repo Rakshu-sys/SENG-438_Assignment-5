@@ -11,7 +11,7 @@
 
 # Introduction
 
-# In this assignment, we had to check how reliable a software system is by looking at when and how often it fails. Our group split the work, and we worked on the first part using a tool called C-SFRAT. This tool helps us see if the system is improving over time as more testing is done. The goal was to find out if the system becomes more reliable and which model best explains the failure data.
+In this assignment, we had to check how reliable a software system is by looking at when and how often it fails. Our group split the work, and we worked on the first part using a tool called C-SFRAT. This tool helps us see if the system is improving over time as more testing is done. The goal was to find out if the system becomes more reliable and which model best explains the failure data.
 
 # Assessment Using Reliability Growth Testing 
 
@@ -43,15 +43,15 @@ Screenshots:
 
 Model Comparison Table
 
-→ images/model_comparison_table.png
+images/comparison.png
 
 DW2 – Discrete Weibull (Order 2) – Prediction Plot
 
-→ images/dw2_prediction_plot.png
+images/DW2.png
 
 S – Salvia & Bollinger – Prediction Plot
 
-→ images/s_prediction_plot.png
+images/S.png
 
 # Assessment Using Reliability Demonstration Chart 
 
