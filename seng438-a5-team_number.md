@@ -19,15 +19,15 @@ We started by converting the given dataset (DATASET1.DAT) into the format that C
 
 We tested the following models:
 
-Discrete Weibull (Order 2)
+- Discrete Weibull (Order 2)
 
-Salvia & Bollinger
+- Salvia & Bollinger
 
-Generalized Salvia & Bollinger
+- Generalized Salvia & Bollinger
 
-Geometric
+- Geometric
 
-Negative Binomial (Order 2)
+- Negative Binomial (Order 2)
 
 After running the tool and comparing results, we found that the two best models were:
 
@@ -35,15 +35,23 @@ Discrete Weibull (Order 2): It had the lowest AIC (251.42) and a perfect match s
 
 Salvia & Bollinger: This model also had strong results with a match score of 0.97.
 
+We used the Model Comparison Table in C-SFRAT to help pick the best models. It shows values like AIC, BIC, and Log-Likelihood for each model. The Discrete Weibull (Order 2) model had the lowest AIC and a perfect match score, so we chose that as the best. Salvia & Bollinger was also close and had strong results, so we picked it as the second-best
+
 We took screenshots of the model comparison table and the plots for both models. The plots show how well each model predicted the actual failures. The black lines show real failure data and the colored lines show the model's prediction. Both models followed the real data closely.
 
 Screenshots:
 
 Model Comparison Table
 
-Discrete Weibull (Order 2) – Cumulative Failure Plot
+→ images/model_comparison_table.png
 
-Salvia & Bollinger – Cumulative Failure Plot
+DW2 – Discrete Weibull (Order 2) – Prediction Plot
+
+→ images/dw2_prediction_plot.png
+
+S – Salvia & Bollinger – Prediction Plot
+
+→ images/s_prediction_plot.png
 
 # Assessment Using Reliability Demonstration Chart 
 
