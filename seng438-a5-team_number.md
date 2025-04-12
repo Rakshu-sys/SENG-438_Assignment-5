@@ -68,6 +68,18 @@ S – Salvia & Bollinger – Prediction Plot
 
 # Comparison of Results
 
+RDC Testing – Comparison of Results for 3 MTTF Values
+To evaluate the reliability of the system under test, we used the Reliability Demonstration Chart (RDC) to visualize how the failure data performs against three MTTF thresholds: the minimum acceptable MTTF (500 minutes), double that threshold (1000 minutes), and half of it (250 minutes). The results of each test are discussed below.
+
+MTTFmin = 500 minutes
+With a minimum acceptable MTTF of 500 minutes, the failure points land primarily in the yellow zone, which represents the “Continue Testing” region. This means the system is not outright rejected, but it hasn’t yet demonstrated sufficient reliability to be confidently accepted. The observed failures indicate borderline performance — further testing would be recommended to confirm whether the system can be deemed reliable at this threshold.
+
+2×MTTFmin = 1000 minutes
+When the target MTTF is increased to 1000 minutes, the failure curve shifts noticeably to the right and all points fall within the green “Accept” region. This means the system meets or exceeds the reliability expectations at this threshold. The spacing between observed failures is wide enough to demonstrate improved behavior, and the system would be considered reliable and acceptable under this assumption. This result supports concluding the test effort and potentially approving the software for release.
+
+½×MTTFmin = 250 minutes
+At the more demanding threshold of 250 minutes, the system performs poorly. The observed failures quickly push the curve into the red “Reject” region. This shows that the failure frequency is too high to meet such a strict reliability requirement. Under these conditions, the system would be rejected, as it cannot demonstrate consistent enough performance to pass.
+
 # Discussion on Similarity and Differences of the Two Techniques
 Reliability Growth Testing and the Reliability Demonstration Chart (RDC) both evaluate system reliability using failure data, but they serve different purposes. Growth testing, like in C-SFRAT, models how reliability improves over time and helps compare different statistical models. It’s more detailed and useful during ongoing testing. RDC, on the other hand, is a simpler visual tool used to check if a system meets a target MTTF. It’s ideal when time is limited or data is minimal. While both help in assessing reliability, C-SFRAT offers depth and trend analysis, whereas RDC provides a quick pass/fail decision against reliability goals.
 
