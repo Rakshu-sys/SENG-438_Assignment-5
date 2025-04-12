@@ -55,6 +55,15 @@ S – Salvia & Bollinger – Prediction Plot
 
 # Assessment Using Reliability Demonstration Chart 
 
+### RDC Chart – MTTF = 500
+![RDC for MTTF=500](./RDC(2).jpg)
+
+### RDC Chart – MTTF = 1000
+![RDC for MTTF=1000](.RDC(3).jpg)
+
+### RDC Chart – MTTF = 250
+![RDC for MTTF=250](./RDC(1).jpg)
+
 # 
 
 # Comparison of Results
