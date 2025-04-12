@@ -60,6 +60,7 @@ S – Salvia & Bollinger – Prediction Plot
 # Comparison of Results
 
 # Discussion on Similarity and Differences of the Two Techniques
+Reliability Growth Testing and the Reliability Demonstration Chart (RDC) both evaluate system reliability using failure data, but they serve different purposes. Growth testing, like in C-SFRAT, models how reliability improves over time and helps compare different statistical models. It’s more detailed and useful during ongoing testing. RDC, on the other hand, is a simpler visual tool used to check if a system meets a target MTTF. It’s ideal when time is limited or data is minimal. While both help in assessing reliability, C-SFRAT offers depth and trend analysis, whereas RDC provides a quick pass/fail decision against reliability goals.
 
 # How the team work/effort was divided and managed
 Two members of the team were focussing on part 1: Reliability Growth Testing. The other two focussed on part 2: Reliability Demonstration Chart. After completing both parts, our group shared the learnings with each other so that every member of the group had an equal opportunity to learn from this lab. We worked together on completing the report by dividing the parts equally. We had constant check-ins during last two weeks to ensure that everyone on the team was on same page. We collaborated using Github and communicated using a discord group chat to make sure we did the project smoothly. 
